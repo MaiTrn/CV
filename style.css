@@ -3,6 +3,7 @@
     justify-content: center;
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 #profile {
     font-size: 80px;
