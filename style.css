@@ -25,10 +25,6 @@
     margin-top: 10px;
 }
 
-.header {
-    margin: 10px;
-}
-
 #left-col {
     background-color: #FFEFEE;
     width: 25%;
@@ -40,6 +36,7 @@
 }
 .info {
     font-size: 15px;
+    padding-left:10px;
 }
 .icon {
     margin-right: 10px;
