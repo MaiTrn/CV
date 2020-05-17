@@ -1,0 +1,64 @@
+#head {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#profile {
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 20px;
+    margin: 10px;
+}
+#profpic {
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 120px;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+}
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.header {
+    margin: 10px;
+}
+
+#left-col {
+    background-color: #FFEFEE;
+    width: 25%;
+    padding: 30px;
+}
+#right-col {
+    width: 75%;
+    margin: 20px;
+}
+.info {
+    font-size: 15px;
+}
+.icon {
+    margin-right: 10px;
+    border-radius: 50%;
+    background: white;
+    width: 25px;
+}
+
+.grayTxt {
+    color: gray;
+}
+.pinkTxt {
+    color: #FF968D;
+    font-weight: bold;
+}
+
+#underline {
+    width: 20%;
+    justify-content: flex-start;
+    margin: 0;
+    
+}
