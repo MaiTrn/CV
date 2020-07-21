@@ -39,6 +39,12 @@
     font-size: 15px;
     padding-left:10px;
 }
+#summaryText {
+    font-size: 15px;
+    padding-left:10px;
+    text-indent: 15px;
+    line-height: 25px;
+}
 .icon {
     margin-right: 10px;
     border-radius: 50%;
@@ -53,10 +59,22 @@
     color: #FF968D;
     font-weight: bold;
 }
-
 #underline {
     width: 20%;
     justify-content: flex-start;
     margin: 0;
     
+}
+a:link {
+    color: gray;
+}
+a:visited {
+    color:gray;
+}
+a:hover {
+    color: #385DC3;
+}
+#projectpic {
+    width: 200px;
+    margin: 5px;
 }
