@@ -33,7 +33,9 @@
 }
 #right-col {
     width: 75%;
-    margin: 20px;
+    padding: 20px 20px 20px 25px;
+    margin-left: 5px;
+    background-color: #F9FBFF;
 }
 .info {
     font-size: 15px;
