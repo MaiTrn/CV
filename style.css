@@ -1,92 +1,111 @@
 #head {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
 }
 #profile {
-    font-size: 80px;
-    text-align: center;
-    letter-spacing: 20px;
-    margin: 10px;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 20px;
+  margin: 10px;
 }
 #profpic {
-    margin-left: 10px;
-    border-radius: 50%;
-    width: 120px;
+  margin-left: 10px;
+  border-radius: 50%;
+  width: 120px;
 }
 #container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .infoContainer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  align-items: center;
 }
 
 .pictureContainer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 #left-col {
-    background-color: #FFEFEE;
-    width: 25%;
-    padding: 30px;
+  background-color: #ffefee;
+  width: 25%;
+  padding: 30px;
 }
 #right-col {
-    width: 75%;
-    padding: 20px 20px 20px 25px;
-    margin-left: 5px;
-    background-color: #F9FBFF;
+  width: 75%;
+  padding: 20px 20px 20px 25px;
+  margin-left: 5px;
+  background-color: #f9fbff;
 }
 .info {
-    font-size: 15px;
-    padding-left:10px;
+  font-size: 15px;
+  padding-left: 10px;
 }
 #summaryText {
-    font-size: 15px;
-    padding-left:10px;
-    text-indent: 15px;
-    line-height: 25px;
-    color: #3F4A4C;
+  font-size: 15px;
+  padding-left: 10px;
+  text-indent: 15px;
+  line-height: 25px;
+  color: #3f4a4c;
 }
 .icon {
-    margin-right: 10px;
-    border-radius: 50%;
-    background: white;
-    width: 25px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: white;
+  width: 25px;
 }
 
 .grayTxt {
-    color: gray;
+  color: gray;
 }
 .pinkTxt {
-    color: #FF968D;
-    font-weight: bold;
+  color: #ff968d;
+  font-weight: bold;
 }
 #underline {
-    width: 20%;
-    justify-content: flex-start;
-    margin: 0;
-    
+  width: 20%;
+  justify-content: flex-start;
+  margin: 0;
 }
 a:link {
-    color: gray;
+  color: gray;
 }
 a:visited {
-    color:gray;
+  color: gray;
 }
 a:hover {
-    color: #385DC3;
+  color: #385dc3;
 }
 #projectpic {
-    width: 200px;
-    margin: 5px;
+  width: 200px;
+  margin: 5px;
+}
+
+#grid-container {
+  display: grid;
+  grid-gap: 10px;
+}
+
+#grid-item1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#grid-item2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#grid-item3 {
+  grid-column: 3;
+  grid-row: 1;
 }
