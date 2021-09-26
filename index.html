@@ -8,9 +8,10 @@
 
 <body>
     <div id="root">
-        <div id="head">
-            <div><h1 id="profile">MAI TRAN</h1></div>
-            <!--<div><img id="profpic" src="dp.png" alt="profile picture"></div>-->
+        <div id="head">  
+            <!-- <div><img id="profpic" src="dp.png" alt="profile picture"></div> -->
+            <div><h1 id="profile">MAI TRAN</h1><hr style="border: 1px solid black;"></div>  
+            
         </div>
         
         <div id="container">
@@ -19,39 +20,45 @@
                 <hr id="underline">
                 <div class="infoContainer">
                     <div><img class="icon" src="home.png"></div>
-                    <div class="info">Palosaarentie 58 C220, Vaasa, Finland</div>
+                    <div class="contactInfo grayTxt">Konepajakatu 9 Q23, Vaasa, Finland</div>
                 </div>
                 <div class="infoContainer">
                     <div><img class="icon" src="phone.png"></div>
-                    <div class="info">+358 46 6804395</div>
+                    <div class="contactInfo grayTxt">+358 46 6804395</div>
                 </div>
                 <div class="infoContainer">
                     <div><img class="icon" src="mail.png"></div>
-                    <div class="info">maitran.kuro@gmail.com</div>
+                    <div class="contactInfo grayTxt">maitran.ln99@gmail.com</div>
                 </div>
                 
                 <h3>EDUCATION</h3>
                 <hr id="underline">
-                <h5>BANCHELOR OF ENGINEERING</h5>
-                <p class="info" style="margin: -15px 0px 0px -10px"><i>(2019-Present)</i></p>
-                <p class="info"><span class="pinkTxt">VAASA UNIVERSITY OF APPLIED SCIENCES</span><span class="grayTxt"> - Vaasa, Finland.</span></p>
-                <p class="info grayTxt"><strong>Major:</strong> Software Engineering</p>
-               <!-- <p class="info grayTxt"><strong>Grade:</strong></p>-->
+                <p><span class="pinkTxt">VAASA UNIVERSITY OF APPLIED SCIENCES</span><span class="grayTxt"> - Vaasa, Finland.</span></p>
+                <p class="otherInfo grayTxt" style="margin-top: -15px;"><i>(2019-Present)</i></p>
+                <p class="otherInfo grayTxt"><strong>Degree Programme:</strong> Information Technology</p>
+                <p class="otherInfo grayTxt"><strong>Degree:</strong> Bachelor of Engineering</p>
+                <p class="otherInfo grayTxt"><strong>Major:</strong> Software Engineering</p>
+               <!-- <p class="otherInfo grayTxt"><strong>Grade:</strong></p>-->
 
                 <h3> HOBBIES</h3>
                 <hr id="underline">
-                <p class="info"><span class="grayTxt">• Mobile app development</span></p>
-                <p class="info"><span class="grayTxt">• Game development</span></p>
+                <ul class="otherInfo grayTxt">
+                <li>Mobile app development</li>
+                <li>Game development</li>
+                <li>IoT</li>
+                </ul>
 
                 <h3> LANGUAGES</h3>
                 <hr id="underline">
-                <p class="info"><span class="grayTxt">• English (fluent)</span></p>
-                <p class="info"><span class="grayTxt">• Vietnamese (native)</span></p>
-                <p class="info"><span class="grayTxt">• Finnish (elementary)</span></p>
+                <ul class="otherInfo grayTxt">
+                    <li>English (fluent)</li>
+                    <li>Vietnamese (native)</li>
+                    <li>Finnish (elementary)</li>
+                </ul>
 
                 <h3> REFERENCES</h3>
                 <hr id="underline">
-                <p class="info"><span class="pinkTxt">GITHUB:</span>
+                <p class="otherInfo"><span class="pinkTxt">GITHUB:</span>
                     <a href="https://github.com/MaiTrn" target="_blank" >
                         https://github.com/MaiTrn
                     </a> </p>
@@ -60,11 +67,11 @@
             <div id="right-col">
                 <h3>SUMMARY</h3>
                 <hr id="underline">
-                <p id="summaryText">I'm an undergraduate IT student at Vaasa University of Applied Sciences who's focusing on learning
-                     React Native JS for mobile app development. By creating many small projects for myself to work on, 
+                <p id="summaryText" class="grayTxt">I'm an undergraduate IT student at Vaasa University of Applied Sciences who's focusing on 
+                    learning React Native JS for frontend mobile development. By creating many small projects for myself to work on, 
                     I'm developing my knowledge even further on React Native, while also trying to learn some other languages such as HTML, CSS. 
                     Through the projects, I'm also hoping to practice my soft skills: the ability to work for long hours without losing enthusiasm, and
-                     the mentality of being able to work under pressure.</p>
+                    the mentality of being able to work under pressure.</p>
             <!--    <p id="summaryText">After going through Steerpath's products, I think this is a chance for me to learn even more by 
                     involving and dedicating myself to work with the company. I'm more comfortable with frontend mobile development, 
                     and even though I do not yet have a strong background on working with data, 
@@ -103,20 +110,35 @@
                 <h3>ONGOING PROJECTS</h3>
                 <hr id="underline">
                 <h4 class="pinkTxt">POMODORO TRACKER APP</h4>
-                    <ul>
-                        <li class="grayTxt">A short TODO app with a timer that runs between 25 minutes work and 5 minutes break.</li>
-                        <li class="grayTxt">Helps focus on a certain task with some break time.</li>
-                        <li class="grayTxt">Inspiration from <a href="https://pomodoro-tracker.com/" target="_blank" >HERE.</a></li>
+                    <ul class="grayTxt">
+                        <li>A short TODO app with a timer that runs between 25 minutes work and 5 minutes break.</li>
+                        <li>Helps focus on a certain task with some break time.</li>
+                        <li>Inspiration from <a href="https://pomodoro-tracker.com/" target="_blank" >HERE.</a></li>
                     </ul>
                     <div class="pictureContainer">
                         <img id="projectpic" src="./projects/P1_1.jpg" alt="Project 1">
                         <img id="projectpic" src="./projects/P1_2.jpg" alt="Project 1">
                         <img id="projectpic" src="./projects/P1_3.jpg" alt="Project 1">
                     </div>
-                 <!--   <p class="info grayTxt">What I can do more:</p> ??-->
+                 <!--   <p class="otherInfo grayTxt">What I can do more:</p> ??-->
 
-                <h4 class="pinkTxt">CONTACTS APP</h4>
-                <li class="grayTxt">A simple contacts app that display the contact information and allow you to add new contact.</li>
+                <h4 class="pinkTxt">FASHION PLATFORM APP</h4>
+                <ul class="grayTxt">
+                    <li>A simple fashion app that has many feature: browse for outfits, save/remove favourite outfits.</li>
+                    <li>A hobby project that mainly focuses on the UI.</li>
+                </ul>
+                <div class="pictureContainer">
+                    <img id="projectpic" src="./projects/P2_4.jpg" alt="Project 2">
+                    <img id="projectpic" src="./projects/P2_1.jpg" alt="Project 2">
+                    <img id="projectpic" src="./projects/P2_2.jpg" alt="Project 2">
+                    <img id="projectpic" src="./projects/P2_3.jpg" alt="Project 2">
+                </div>
+
+                <h4 class="pinkTxt">EXPENSE TRACKER APP</h4>
+                <ul class="grayTxt">
+                    <li>An expense tracker app that lets you add and monitor your expenses.</li>
+                    <li>Has pending expenses and confirmed expenses.</li>
+                </ul>
                 <div class="pictureContainer">
                     <img id="projectpic" src="./projects/P3_1.jpg" alt="Project 3">
                     <img id="projectpic" src="./projects/P3_2.jpg" alt="Project 3">
