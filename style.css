@@ -89,10 +89,7 @@ body {
   justify-content: flex-start;
   margin: 0;
 }
-a:link {
-  color: gray;
-}
-a:visited {
+a:link, a:visited {
   color: gray;
 }
 a:hover {
@@ -109,7 +106,7 @@ a:hover {
 }
 
 ul {
-  padding-inline-start: 20px;;
+  padding-inline-start: 20px;
 }
 
 #grid-item1 {
