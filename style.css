@@ -71,9 +71,14 @@ body {
   line-height: 25px;
 }
 .icon {
-  border-radius: 50%;
-  background: white;
+  align-self: center;
   width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  padding-left: 6px;
+  padding-top: 7px;
+  color: #ff968d;
 }
 
 .grayTxt {
@@ -89,7 +94,8 @@ body {
   justify-content: flex-start;
   margin: 0;
 }
-a:link, a:visited {
+a:link,
+a:visited {
   color: gray;
 }
 a:hover {
