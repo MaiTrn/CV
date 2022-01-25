@@ -14,7 +14,7 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: row;
-  padding: 30px;
+  padding: 29px;
 }
 #profile {
   font-size: 70px;
@@ -128,4 +128,9 @@ ul {
 #grid-item3 {
   grid-column: 3;
   grid-row: 1;
+}
+
+#indent {
+  padding-left: 7px;
+  line-height: 20px;
 }
