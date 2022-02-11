@@ -110,6 +110,9 @@ a:hover {
   display: grid;
   grid-gap: 10px;
 }
+#language-container {
+  display: grid;
+}
 
 ul {
   padding-inline-start: 20px;
